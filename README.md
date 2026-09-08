@@ -27,3 +27,4 @@ If you wish to support this work, you may send crypto donations via MetaMask:
 > Wallet address: `0xD93C42D7BCBBdD2DB748da0e0914832D43040E66`
 
 All donations are voluntary. No perks, no tokens, no investment returns.
+Feedback, suggestions and discussions are welcome in the Discussions section.
