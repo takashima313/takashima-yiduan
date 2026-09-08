@@ -1,0 +1,139 @@
+# Takashima Divination · Authentic Simplified Milfoil Method
+
+## An Anonymous Open-Source Cultural Tribute
+
+**Version:** 1.0.0  
+**Date:** July 10, 2026  
+**License:** MIT + Apache 2.0 Dual Open-Source License
+
+
+## I. Origin · The Prison Revelation
+
+In the winter of 1859, the Edo prison was bitterly cold and damp. Takashima Kaemon, at twenty-seven years of age, imprisoned within those walls, chanced upon a copy of the *I Ching*. With no proper yarrow stalks at hand, he folded paper strips to serve as divination sticks and cast the oracle on the spot. The hexagram obtained was "Treading · The Well" *(履之井)* — the image revealed that a well-rope could be climbed, that salvation lay within reach. That very night, following the guidance of the hexagram, he scaled the prison wall along the well-rope and escaped to Yokohama, narrowly escaping death.
+
+For the fifty-three years that followed, Takashima Kaemon's divinations never once failed. The Meiji Emperor summoned him privately on multiple occasions to inquire about the nation's fate. A single hexagram, "Waiting · The Well" *(需之节)*, accurately predicted the outcome of the First Sino-Japanese War — and every detail came to pass as foretold. When Itō Hirobumi sought his counsel before departing for Harbin, the hexagram obtained was "Keeping Still · Mountain" *(艮为山)*, an image of obstruction and warning. Takashima earnestly advised him to postpone the journey. Itō did not listen, and was assassinated upon arrival.
+
+In his final days, Takashima wrote his own death date and memorial tablet inscription, and passed away peacefully on the very day he had foretold, at the age of eighty-three. The Emperor bestowed upon him the posthumous title: **Daikan'in Shin'eki Tōshō Koji** — "The Great Contemplator, Divine Diviner, Devourer of Images." The name of the Sage of Divination spread throughout the East and beyond.
+
+Throughout his life, Takashima Kaemon used the *I Ching* to observe the rise and fall of the world and to discern fortune and misfortune for all who sought his counsel. His shrine, Shin'yidō (The Hall of Divine Divination), served both the imperial court and the common people — never once accepting payment, holding the four characters *Shisei Musoku* ("Sincerity Without Cease") as the sole guiding principle of his life and practice.
+
+Today, we — a group of anonymous overseas open-source developers — offer this digital tribute to the Meiji-era Sage of Divination. We use code as yarrow stalks and open source as the vessel for transmission, digitally recreating Takashima's authentic simplified divination method. May the master's legacy of sincere divination endure forever in the digital world, built upon blockchain and open-source foundations.
+
+
+## II. Project Overview
+
+### 2.1 Project Positioning
+
+This project is a **permanently free, fully offline, privacy-first** digital tribute to the *Takashima Divination* tradition. It is not a simple webpage reproduction, but a cross-platform divination study and practice tool built upon Takashima Kaemon's mature "Simplified Dark Divination Method" as its core algorithm, combined with a modern lightweight interactive experience.
+
+### 2.2 Three Core Principles
+
+**1. Honor the Past Without Being Bound by It**
+
+The project faithfully follows the original process of Takashima Kaemon's mature Dark Divination Method — the preparatory mindfulness practices and the step-by-step divination procedure strictly adhere to traditional principles. No arbitrary additions, omissions, or alterations are made to the method or its interpretive logic.
+
+**2. Privacy Is Sincerity Itself**
+
+Takashima's divination placed paramount importance on inner purity and single-minded sincerity, undisturbed by external influences. This project shares that same principle: all divination, interpretation, and calculation logic **runs solely within the user's local browser**. No data is uploaded to any server. No backend storage exists. No cloud analytics are collected. The user's thoughts and hexagram records exist only in the current session — upon closing the page, everything is erased. We neither observe nor retain any individual's divination records.
+
+**3. Open Source Is Cultural Preservation**
+
+Takashima Divination profoundly influenced the political and business spheres of the Meiji era. Its wisdom belongs to all of humanity. This project is released under the MIT + Apache 2.0 dual open-source license, allowing developers worldwide to freely review, modify, redistribute, and even commercially adapt the code. The source code remains perpetually open, safeguarding the tradition through open collaboration.
+
+
+## III. Technical Architecture
+
+| Module | Technology | Detailed Description |
+| :--- | :--- | :--- |
+| Frontend Framework | Native HTML / CSS / Vanilla JavaScript | Zero third-party dependencies, ultra-lightweight, compatible with all modern PC and mobile browsers |
+| Divination Core Engine | Pure Native JavaScript Algorithm | No external API calls; all yarrow-stalk calculations performed entirely on the local client |
+| Data Persistence Policy | Zero Persistence Storage | No reading/writing to local cache, IndexedDB, or cookies; all hexagram records are destroyed when the session ends |
+| Multi-Language System | Built-in Hardcoded Bilingual Support | All 64 hexagram names, original line texts, 19-category interpretations, and divination commentaries are fully presented in both Chinese and English |
+| Delivery Format | Single Standalone HTML File | Download and open locally — no installation required; only initial font loading requires network access; fully functional offline afterward |
+
+### 3.1 Core Divination Algorithm: The Complete Authentic Takashima Simplified Method
+
+The way of divination begins with a sincere heart. Sit quietly for a moment, compose your thoughts, set aside all distractions, and focus wholly upon what you seek to know.
+
+Takashima Kaemon's Simplified Divination Method: Take fifty divination stalks. Set one aside to symbolize the Supreme Ultimate. Divide the remaining forty-nine into two to symbolize the Two Forms. For a man, the left hand determines the upper trigram; for a woman, the right hand. The count of the left hand, divided by eight, yields the upper trigram; the count of the right hand, divided by eight, yields the lower trigram. Divide the forty-nine once more, and divide the count by six to determine the moving line.
+
+The hexagram is summoned by the sincerity of your mind — it is the oracle of the present moment. To encounter the inauspicious is not a fixed fate; by discerning gain and loss, one may turn away from misfortune and toward good fortune. To obtain the auspicious is not a permanent possession; only through steady self-possession can one preserve good fortune.
+
+**Step-by-Step Procedure:**
+
+1. **Establish the Taiji (Supreme Ultimate) and Base Number**  
+   Take a complete set of fifty virtual yarrow stalks. Set one stalk aside to symbolize the Supreme Ultimate, unmoving. The remaining forty-nine stalks serve as the base number for divination.
+
+2. **First Division — Determine the Upper Trigram**  
+   Randomly divide the forty-nine stalks into two groups. Following the principle of "male left, female right," take the count from the corresponding hand. Divide this number by eight. The remainder determines the upper trigram (a remainder of zero corresponds to the Kun hexagram).
+
+3. **Second Division — Determine the Lower Trigram**  
+   Randomly divide the forty-nine stalks into two groups once again. Following the same principle, take the count from the corresponding hand. Divide by eight. The remainder determines the lower trigram (zero corresponds to Kun).
+
+4. **Third Division — Determine the Single Moving Line**  
+   Randomly divide the forty-nine stalks for a third time. Following the same principle, take the count from the corresponding hand. Divide by six. The remainder determines the moving line (zero corresponds to the top, sixth line).
+
+### 3.2 Takashima's Distinctive Rule: Single-Moving-Line Divination
+
+This project strictly adheres to the "single moving line" system that Takashima consistently used after his middle years. Each divination generates only one changing line. This approach avoids the confusion caused by multiple moving lines, which can muddy the interpretation and obscure the meaning. It aligns perfectly with the minimalist spirit of the Simplified Method, ensuring that the interpretation is clear, direct, and the judgment of fortune and misfortune is unmistakable.
+
+
+## IV. Complete Feature Overview
+
+### 4.1 Core Divination Features
+
+| Feature Module | Detailed Description |
+| :--- | :--- |
+| Sincere Divination Process | Users enter their question and select a divination category. The system automatically completes the full four-step yarrow-stalk divination with visual step-by-step display; a mindfulness prompt appears before casting |
+| 19 Sub-Category Interpretations | Covers: General Fortune, Business & Investment, Career & Officialdom, Marriage & Matchmaking, Health & Illness, Lost Objects, Partnership & Wealth, Litigation & Legal Matters, Household & Feng Shui, Travel Safety, Finding Missing Persons, Theft & Pursuit, Agriculture & Sericulture, Trade & Commerce, Seeking Patronage, Planning & Strategy, Pregnancy & Childbirth, and Weather Forecasting |
+| Five-Section Standardized Interpretation | Each hexagram delivers a professional five-part judgment: [General Conclusion] [Hexagram Image Interpretation] [Detailed Analysis] [Timing & Fulfillment] [Warning & Counsel] — matching the style of Takashima's original divination texts, complete with counsel on fortune and caution |
+| Three-Dimensional Deep Hexagram Analysis | ① Image Interpretation: Original hexagram, Mutual hexagram, and Transformed hexagram combined and compared; ② Timing Interpretation: Whether the line is timely, out of season, or in the central position; ③ Positional Interpretation: The status of each line, the principle of Correspondence, and the dynamics of Undertaking and Bestriding — three layers of logical analysis |
+| Personalized Moving Line Revelation | Customized interpretation based on the specific position of the moving line, with a complete display of the Transformed (Resulting) hexagram, clearly showing the trend of change |
+| Intuitive Auspiciousness Seal | Three distinct vermilion seals visually indicate the overall fortune of the hexagram: Great Auspiciousness, Prudence, and Great Inauspiciousness — allowing users to grasp the general direction at a glance |
+
+### 4.2 Supporting Cultural Content
+
+The project includes a complete biographical timeline of Takashima Kaemon (1832–1914), documenting his full legendary journey: from receiving the *I Ching* in prison, to establishing Shin'yidō, to divining for the Emperor, to his encounter with Itō Hirobumi, to his self-foretold death. Users can learn the complete story of the Sage of Divination's life of sincerity alongside their divination practice.
+
+
+## V. Open-Source Community & Contribution Guidelines
+
+### 5.1 Project Maintenance Model
+
+This project is maintained by an anonymous group of overseas developers. All core maintainers are identified only by their open-source community IDs, with no public disclosure of real identities. This approach shields the project from commercial and political interference, preserving its purely cultural and scholarly nature, free from any capital entanglements.
+
+### 5.2 Project Channels
+
+- **Source Code Repository:** GitHub (Anonymous Organization Repository)
+- **Discussion Forum:** GitHub Discussions
+- **Issue & Feature Tracking:** GitHub Issues
+
+### 5.3 Contribution Areas
+
+We welcome Pull Requests from developers worldwide, with particular interest in the following areas:
+
+1. Precise proofreading and refinement of English translations for all 64 hexagram statements and line texts
+2. Expansion of the five-section interpretations across the 19 categories, adding more detailed scenario-based explanations
+3. Mobile UI/UX optimization, including support for foldable devices and small-screen smartphones
+4. Implementation of supplementary divination methods: numerical divination, time-based divination, and coin-based divination (using traditional Chinese copper coins)
+5. Digital transcription and proofreading of the complete original *Takashima Divination* classical texts
+
+
+## VI. Disclaimer
+
+The *I Ching* and its yarrow-stalk divination are part of traditional Chinese folk culture and ancient philosophical discourse, intended primarily for organizing one's thoughts, inspiring reflection, and assisting decision-making. All hexagrams and interpretations generated by this tool are products of digital simulation based on classical methods. **They do not constitute any form of definitive guidance for life, investment, business, or medical decisions.** The course of one's life is ultimately determined by personal choice and sustained effort. Study divination with a rational mind, and avoid blind superstition.
+
+This project is a purely cultural, academic, non-commercial open-source tribute. It has no affiliation with Takashima Kaemon's descendants or any commercial divination organization in Japan. All content is provided solely for traditional cultural study and personal cultivation.
+
+
+## VII. Conclusion · Code as a Vessel for Sincerity
+
+Takashima Kaemon left this enduring teaching: "Divination is the way of sincerity without cease. A single thought of sincerity can connect Heaven and Earth."
+
+In this digital age, we offer lines of open-source code in place of paper yarrow stalks, continuing the sage's legacy of sincere and unpretentious divination. May every user who opens this tool and casts a hexagram with a sincere heart approach the oracle with reverence, interpret it with clarity, and embrace the guidance of Heaven and Earth with equanimity.
+
+**Pious Service by Diviner · The Practitioner Honors Master Takashima**
+
+---
+
+**Takashima Divination · Authentic Simplified Milfoil Method · An Anonymous Open-Source Cultural Tribute**
