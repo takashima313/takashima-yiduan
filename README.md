@@ -30,3 +30,4 @@ All donations are voluntary. No tokens, investment returns, or other financial b
 ## Disclaimer
 TAKASHIMA YIDUAN is provided as an open-source cultural and research tool and is not intended to provide scientific predictions or professional financial, medical, legal, or other regulated advice.
 Users are responsible for how they interpret and use the results of the tool.
+Live Demo: [Online Demo](https://takashima313.github.io/takashima-yiduan/)
